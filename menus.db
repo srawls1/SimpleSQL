@@ -1,0 +1,7 @@
+CREATE TABLE menus (menuid INTEGER, menuname VARCHAR(32), groupid INTEGER) PRIMARY KEY (menuid);
+INSERT INTO menus VALUES FROM (0, "ENTER BBS", 1);
+INSERT INTO menus VALUES FROM (1, "Main Menu", 1);
+INSERT INTO menus VALUES FROM (2, "Board Menu", 1);
+INSERT INTO menus VALUES FROM (3, "Messages Menu", 1);
+INSERT INTO menus VALUES FROM (4, "Groups Menu", 1);
+INSERT INTO menus VALUES FROM (5, "Users Menu", 1);

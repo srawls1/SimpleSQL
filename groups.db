@@ -1,0 +1,6 @@
+CREATE TABLE groups (groupid INTEGER, groupname VARCHAR(32), groupmanager INTEGER, status INTEGER) PRIMARY KEY (groupid);
+INSERT INTO groups VALUES FROM (0, "Admin", 0, 1);
+INSERT INTO groups VALUES FROM (1, "All Users", 0, 1);
+INSERT INTO groups VALUES FROM (2, "Blah", 0, 0);
+INSERT INTO groups VALUES FROM (3, "Test", 0, 1);
+INSERT INTO groups VALUES FROM (4, "Blah 3", 2, 1);

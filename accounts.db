@@ -1,0 +1,6 @@
+CREATE TABLE accounts (userid INTEGER, user_name VARCHAR(32), password VARCHAR(32), full_name VARCHAR(32), phone VARCHAR(32), fax VARCHAR(16), address VARCHAR(32), status INTEGER) PRIMARY KEY (userid);
+INSERT INTO accounts VALUES FROM (0, "admin", "sysop123", "Administrator", "555-555-5555", "9", "Everywhere", 1);
+INSERT INTO accounts VALUES FROM (1, "newu", "newp", "New User", " ", " ", " ", 1);
+INSERT INTO accounts VALUES FROM (2, "srawls", "1234", "Spencer Rawls", "123-456-7890", "none", "2017 Walton Drive", 1);
+INSERT INTO accounts VALUES FROM (3, "prem", "sdf", " ", " ", " ", " ", 0);
+INSERT INTO accounts VALUES FROM (4, "prem", "sd", " ", " ", " ", " ", 0);

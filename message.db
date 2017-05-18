@@ -1,0 +1,5 @@
+CREATE TABLE message (messageid INTEGER, useridfrom VARCHAR(32), useridto VARCHAR(32), time VARCHAR(32), title VARCHAR(32), content VARCHAR(65536)) PRIMARY KEY (messageid);
+INSERT INTO message VALUES FROM (0, "Spencer Rawls", "newu", "Tue Oct  6 17:59:37 2015
+", " HAI", " Oh hai, newu!");
+INSERT INTO message VALUES FROM (2, "Spencer Rawls", "newu", "Tue Oct  6 20:49:14 2015
+", " ?", " Don't follow?");
